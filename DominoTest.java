@@ -12,7 +12,7 @@ class DominoTest {
                     System.out.println("##################################################################");
                     System.out.println("Version       : " + version);
                     System.out.println("################################################################## Session info");
-                    Session session = NotesFactory.createSession("TESTVR001.intranet.servizi", "IdentityMinder2", "PASSWORD123");
+                    Session session = NotesFactory.createSession("*******i", "******", "******");
 
 
                     System.out.println("CommonName        : " +  session.getCommonUserName());
